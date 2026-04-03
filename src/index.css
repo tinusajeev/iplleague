@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* React DatePicker Dark Theme Overrides */
+.react-datepicker {
+  @apply !bg-slate-800 !border-slate-700 !font-sans !text-white !shadow-xl !rounded-xl;
+}
+
+.react-datepicker__header {
+  @apply !bg-slate-900 !border-b !border-slate-700 !rounded-t-xl;
+}
+
+.react-datepicker__current-month, 
+.react-datepicker-time__header, 
+.react-datepicker-year-header {
+  @apply !text-white !font-bold;
+}
+
+.react-datepicker__day-name, 
+.react-datepicker__day, 
+.react-datepicker__time-name {
+  @apply !text-slate-300;
+}
+
+.react-datepicker__day:hover, 
+.react-datepicker__month-text:hover, 
+.react-datepicker__quarter-text:hover, 
+.react-datepicker__year-text:hover {
+  @apply !bg-slate-700 !rounded-full;
+}
+
+.react-datepicker__day--selected, 
+.react-datepicker__day--in-selecting-range, 
+.react-datepicker__day--in-range, 
+.react-datepicker__month-text--selected, 
+.react-datepicker__quarter-text--selected, 
+.react-datepicker__year-text--selected {
+  @apply !bg-rose-600 !text-white !rounded-full !font-bold;
+}
+
+.react-datepicker__day--keyboard-selected, 
+.react-datepicker__month-text--keyboard-selected, 
+.react-datepicker__quarter-text--keyboard-selected, 
+.react-datepicker__year-text--keyboard-selected {
+  @apply !bg-rose-500/50 !text-white !rounded-full;
+}
+
+.react-datepicker__navigation-icon::before {
+  @apply !border-slate-400;
+}
+
+.react-datepicker__navigation:hover *::before {
+  @apply !border-white;
+}
+
+.react-datepicker__day--outside-month {
+  @apply !text-slate-600;
+}
