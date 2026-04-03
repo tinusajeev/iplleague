@@ -1,0 +1,5 @@
+{
+  "name": "IPL Predictor League Tracker",
+  "description": "A mobile-friendly leaderboard app to track IPL predictions for a group of friends.",
+  "requestFramePermissions": []
+}
